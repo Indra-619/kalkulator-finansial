@@ -48,7 +48,7 @@
         <p v-if="result.arr < biayaVariabel"><strong>ARR:</strong> {{ result.arr }}% (Tidak Layak)</p>
         <p v-else-if="result.arr > biayaVariabel"><strong>ARR:</strong> {{ result.arr }}% (Layak)</p>
         <p v-if="result.pi < 0"><strong>PI:</strong> {{ result.pi }} Tidak Layak</p>
-        <p v-else-if="result.pi > 0"><strong>PI:</strong> {{ result.pi }} Layak</p>
+        <p v-else-if="result.pi > 0"><strong>PI:</strong> {{ result.pi }} Layak</p> 
         
         
         
